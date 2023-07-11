@@ -5,3 +5,5 @@ game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
         queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/31VS1/Tower-Defense-Simulator/main/Script.lua'))()")
     end
 end)
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/31VS1/Tower-Defense-Simulator/main/Script.lua'))()
